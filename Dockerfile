@@ -1,5 +1,5 @@
 # Multi-stage build supporting both standalone and Home Assistant add-on
-ARG BUILD_FROM=ghcr.io/hassio-addons/base-python:14.1.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base-python:latest
 FROM ${BUILD_FROM}
 
 # Set shell for add-on compatibility
